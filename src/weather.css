@@ -1,0 +1,79 @@
+* {
+    font-family: 'Segoe UI';
+    color: #181823;
+
+}
+
+body {
+    background: #181823;
+}
+
+.api__weather {
+    border-radius: 25px;
+    padding: 3rem;
+    margin: 2rem 2rem;
+    background: #E9F8F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.api__weather-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.api__weather-header h1:first-child {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.api__weather-temp {
+    display: flex;
+    flex-direction: row;
+}
+
+.api__weather-temp h1 {
+    align-self: center;
+    font-size: 25px;
+}
+
+.api__weather-temp img {
+    align-self: center;
+    margin-top:5px
+}
+
+.api__weather-input {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.api__weather-input input {
+    
+    border: 2px solid #181823;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.api__weather-input button {
+    height: 35px;
+    width: 209px;
+    background: #181823;
+    color: #E9F8F9;
+    border: 2px solid #181823;
+    border-radius: 5px;
+
+}
+
+.api__weather-input button:hover {
+    background: #537FE7;
+}
